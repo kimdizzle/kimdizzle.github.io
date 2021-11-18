@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>	
+	div {
+			width: 100px;
+			height: 100px;
+			border: 3px dotted cornflowerblue;
+      font-size:100px;
+      background-color: HotPink;
+			transition: background-color 4s;
+    }
+
+    .Kclass{
+      transition: height 3s, background-color 4s;
+      color:deepskyblue;}
+    
+    .Kclass:hover{
+      background-color:aliceblue;
+      height: 200px;
+      width:100px;
+      transform: rotate(20deg);
+      
+    }
+
+    .Iclass{
+      transition: width 4s, background-color 2s;
+      color: blueviolet
+    }
+    .Iclass:hover{
+      background-color:mediumorchid;
+      width:700px;
+      transform:skew(20deg,20deg);
+    }
+    .Mclass{
+      transition: width 6s, background-color 3s;
+      color: MediumSpringGreen
+    }
+    .Mclass:hover{
+      background-color:palegreen;
+      height: 100px;
+      width:250px;
+
+      
+    }
+    .Aclass{
+      transition: width 3s, background-color 3s;
+      color: gold
+    }
+    .Aclass:hover{
+      background-color:BlanchedAlmond;
+      width:10px;
+      transform: scaleY(.5);
+    }
+    
+ .Rclass{
+      transition: height 5s, background-color 3s;
+      color:coral;
+    }
+    .Rclass:hover{
+      background-color:DarkSalmon;
+      height: 250px;
+      width:150px;
+      transform:translate(50px);
+    }
+
+    .Eclass{
+      transition: width 9s, background-color 7s;
+      color: Crimson
+    }
+    .Eclass:hover{
+      background-color:LightCoral;
+      height: 125px;
+      width:475px;
+      transform: skewY(60deg);
+    }
+	</style>
+
+</head>
+
+<body>
+		<p>Hover over each letter to see the transition effect:</p>
+
+	<div class = "Kclass">K</div>
+  <div class = "Iclass">I</div>
+  <div class = "Mclass">M</div>
+    <div class = "Aclass">A</div>
+      <div class = "Rclass">R</div>
+        <div class = "Eclass">E</div>
+          <div class = "Aclass">A</div>
+
+</body>
+</html>
