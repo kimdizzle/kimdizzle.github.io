@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>JS_Assign1-Mablibs</title>
+
+<style>
+  span{
+    color:red;
+  }
+  </style>
+</head>
+
+<body>
+	<h2>Demo JavaScript Innertext</h2>
+
+	<h3>Demo1</h3>
+	<p id="demo1">Hi  </p>
+
+	<h3>Demo2</h3>
+
+	<p id="demo2">Hi my name is </p>
+
+	<h3>Demo3</h3>
+
+	<p id="demo3">Heya! </p>
+<br><br><br><br><br>
+	<h3>MadLib - This the assignment</h3>
+
+<!-- Extend the Madlib so that it has at least 8 different words-->
+<p> Here's a madlib about a kid named <span id = "name1">____</span>  who had an imaginary friend <span id = "name2"> ____</span>. One day the two of them went up a hill and found a pot of <span id = "noun1"> _____ </span>. The bread was fluffy and it needed <span id= "food1"> ____</span>. The <span id= "adj1"> ____ </span> and <span id= "adj2"> ___ </span> bread was crispy and light. But then the <span id= "noun2">____ </span> disappeared and <span id= "verb1">____ </span> away. 
+</p>
+
+	<script>  //The Javascript goes in this section below 
+    
+//demo 1 shows replacement of HTML text
+document.getElementById("demo1").innerHTML = "Hello World!";
+
+//demo 2 shows concatenation of HTML text
+document.getElementById("demo2").innerHTML += "dr og";
+
+//demo 3 shows a prompt which stores info as a variable
+//demo 3 shows a prompt which stores info as a variable
+
+//var name = prompt("Please enter your name");
+
+//document.getElementById("demo3").innerHTML = "Hello " + name + "! How are you today?";
+
+
+
+//Put the Madlib JS Code below here. Extend this code so that asks for 8 different inputs and prints them all out
+
+
+var name1 = prompt("Give me a name");
+var name2 = prompt("Give me another name");
+var noun1 = prompt("Give me an appropriate object");
+var food1= prompt ("Give me a cheese")
+var adj1= prompt ("Give me a adj")
+var adj2= prompt ("Give me another adj")
+var noun2= prompt("Give me an appropriate object");
+var verb1= prompt("Give me an appropriate object");
+
+
+document.getElementById("name1").innerHTML = name1;
+document.getElementById("name2").innerHTML = name2;
+document.getElementById("noun1").innerHTML = noun1;
+document.getElementById("food1").innerHTML = food1;
+document.getElementById("adj1").innerHTML = adj1;
+document.getElementById("adj2").innerHTML = adj2;
+document.getElementById("noun2").innerHTML = noun2;
+document.getElementById("verb1").innerHTML = verb1;
+
+	</script>
+
+	<h2> Link to my lab : <a ref= https://replit.com/@DrOGrady/JSAssign1-Madlibs-kimdizzle1#index.html>  </h2> 
+</body>
+
+</html>
